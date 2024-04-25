@@ -7,6 +7,7 @@ import java.time.Month;
 public class Main {
 
     public static void main(String[] args) {
+        //привет андрей
         Human dimon = new Human();
         dimon.name = "dima";
         dimon.birthday = LocalDate.of(2002, Month.APRIL, 16);
