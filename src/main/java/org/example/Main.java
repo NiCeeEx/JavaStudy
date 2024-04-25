@@ -8,6 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         //привет андрей
+        //привет санек
         Human dimon = new Human();
         dimon.name = "dima";
         dimon.birthday = LocalDate.of(2002, Month.APRIL, 16);
