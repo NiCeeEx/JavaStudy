@@ -15,7 +15,7 @@ public class Human {
                 && now.getDayOfMonth() == birthday.getDayOfMonth();
     }
 
-    public int getAge(){ // задаем функцию
+    public int getAge() { // задаем функцию
         LocalDate now = LocalDate.now(); // присваеваем к переменной результат функции
         int nowYear = now.getYear();
         int birthdayYear = birthday.getYear();
@@ -29,6 +29,12 @@ public class Human {
         boolean a = 0 < hours;
         return a;
 
+
+    }
+
+    public void doWork(int time) {
+        work.instrument.doWork();
+        work.workingTime = time + work.workingTime;
 
     }
 }
