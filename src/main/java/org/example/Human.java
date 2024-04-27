@@ -5,6 +5,7 @@ import java.time.LocalDate;
 public class Human {
     LocalDate birthday;
     String name;
+    Work work;
 
 
     public boolean isBirthday() {
@@ -23,4 +24,11 @@ public class Human {
         return age;
     }
 
+    public boolean isWorkingNow() {
+        int hours = work.getHours();
+        boolean a = 0 < hours;
+        return a;
+
+
+    }
 }
