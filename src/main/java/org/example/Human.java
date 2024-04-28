@@ -7,6 +7,10 @@ public class Human {
     String name;
     Work work;
 
+    public Human(LocalDate birthday, String name) {
+        this.birthday = birthday;
+        this.name = name;
+    }
 
     public boolean isBirthday() {
         LocalDate now = LocalDate.now();
